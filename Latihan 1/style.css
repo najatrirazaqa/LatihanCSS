@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, Helvetica , sans-serif;
+  background-color: #121212;
+}
+
+#tabel-siswa {
+  margin: 5em 23em;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  width: 50%;
+}
+
+#tabel-siswa, tr, td{
+  padding: 10px;
+}
+
+#tabel-siswa tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+
+
+.link:hover {
+  text-decoration: dashed;
+}

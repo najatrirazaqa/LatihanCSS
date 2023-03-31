@@ -1,0 +1,104 @@
+body {
+  background-color: #d9d9d9;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  text-align: justify;
+}
+
+#logo {
+  float: left;
+  width: 5em;
+  height: auto;
+  padding: 20px;
+}
+
+#logo img {
+ width: 8em;
+ height: 8em;
+}
+
+#menu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  float: right;
+  width: 960px;
+}
+
+#menu li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu li a {
+  color: #353535;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 400px;
+  height: 600px;
+  float: left;
+  font-size: 1vmax;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  border: 5px solid #353535;
+  border-radius: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #ffffff;
+}
+
+.content {
+  width: 800px;
+  height: 41em;
+  margin-top: 1em;
+  float: right;
+}
+
+.blog-content{
+  float: left;
+  max-width: 380px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-content a:hover{
+  text-decoration: none;
+}
+
+.content .blog-content img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recent-article {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #3c6e71;
+}
+
+.recent-article ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.recent-article ul a {
+ color: #3c6e71;
+}
+
+.recent-article ul a:hover {
+  text-decoration: none;
+ }
+
+.clear {
+  clear: both;
+}

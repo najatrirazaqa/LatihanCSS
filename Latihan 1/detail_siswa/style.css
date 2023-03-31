@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+a {
+  color: #205ef9;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  width: 200px;
+}
+img,
+p,h2{
+  margin: 1em;
+}
